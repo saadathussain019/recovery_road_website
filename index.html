@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recovery Road</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Grotesk:wght@300..700&family=Gruppo&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="images/logo.PNG" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/" id="nav__logo"><i class="fas fa-gem"></i> Recovery Road</a>
+      <div class="navbar__toggle" id="mobile-menu" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="/index.html" class="navbar__links">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="/DB.html" class="navbar__links">Drug Database</a>
+      </li>
+      <li class="navbar__btn">
+        <a href="#" class="button">APP</a>
+      </li>
+      <li class="navbar__item dropdown">
+        <a class="navbar__links" aria-haspopup="true" aria-expanded="false">Rehab Centers</a>
+        <ul class="dropdown__menu">
+          <li><a href="/islamabad.html" class="dropdown__links">Islamabad</a></li>
+          <li><a href="/rwp.html" class="dropdown__links">Rawalpindi</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>REVIVE</h1>
+        <h2>TRANSFORM</h2>
+        <h4>PATH TO A BRIGHTER TOMORROW</h4>
+      </div>
+      <div class="main_img--container">
+        <img src="images/undraw_meditation_re_gll0.svg" alt="pic" id="main__img">
+      </div>
+    </div>
+    <div class="main__container2">
+      <div class="main__content2">
+        <h3>Addressing Global Challenges in Addiction Recovery</h3>
+        <h4>In recent years, the global prevalence of substance use disorders has reached alarming levels,
+          impacting millions worldwide. According to a 2021 UNODC study, approximately 39.5 million individuals suffer
+          from these disorders,
+          with a significant gap in access to essential treatment and post-rehabilitation support.</h4>
+        <h3>Join Us in Redefining Recovery</h3>
+        <h4>Together, we can empower individuals on their journey to long-term sobriety.
+          Recovery Road is committed to bridging the gap in addiction recovery support,
+          offering hope and practical solutions where they are needed most.</h4>
+      </div>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="images/Drug-Bug.png" alt="Logo 1">
+      </div>
+      <div class="slide">
+        <img src="images/Drug-Free.png" alt="Logo 2">
+      </div>
+      <div class="slide">
+        <img src="images/No-Drugs.png" alt="Logo 3">
+      </div>
+      <div class="slide">
+        <img src="images/Recover.png" alt="Logo 4">
+      </div>
+      <div class="slide">
+        <img src="images/Recoverr.png" alt="Logo 5">
+      </div>
+    </div>
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

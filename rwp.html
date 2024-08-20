@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovery Road</title>
+    <link rel="stylesheet" href="rwp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Grotesk:wght@300..700&family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.PNG" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="nav__logo"><i class="fas fa-gem"></i> Recovery Road</a>
+        <div class="navbar__toggle" id="mobile-menu" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+    <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="/index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+            <a href="/DB.html" class="navbar__links">Drug Database</a>
+        </li>
+        <li class="navbar__btn">
+            <a href="#" class="button">APP</a>
+        </li>
+        <li class="navbar__item dropdown">
+            <a class="navbar__links" aria-haspopup="true" aria-expanded="false">Rehab Centers</a>
+            <ul class="dropdown__menu">
+                <li><a href="/islamabad.html" class="dropdown__links">Islamabad</a></li>
+                <li><a href="/rwp.html" class="dropdown__links">Rawalpindi</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+    <h1>Rehab Centers in Rawalpindi</h1>
+    <table id="rehabTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Rating</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+    <script src="rwp.js"></script>
+</body>
+</html>
